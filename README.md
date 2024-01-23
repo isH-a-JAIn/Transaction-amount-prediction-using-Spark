@@ -2,7 +2,7 @@
 
 SparkSQL and MLlib: Processing Purchase Transactions 
 
-Overview: This problem studies Purchase Transactions from users. After generating the 
+__Overview:__ This problem studies Purchase Transactions from users. After generating the 
 data, the data is analyzed using SparkSQL. After this 
 Spark MLlib is utilized to predict the Purchase Prices.
 
@@ -28,7 +28,7 @@ TransNumItems: Number of items as random number (integer) between 1 and 15
 TransDesc: Text of characters of length between 20 and 50 (careful: no commas)
 Task 2.0) Load your data into your storage. 
 
-##SparkSQL is used to express the following workflows:
+__SparkSQL is used to express the following workflows:__
 
 Task 2.1) Filtering out (dropping) the Purchases from P with a total purchase amount above $600. 
 Storing the result as T1. 
@@ -45,7 +45,7 @@ b. C1 spent in total more money than C2 but bought less items.
 Storing the result as T4 and reporting it back in the form (C1 ID, C2 ID, Age1, Age2, 
 TotalAmount1, TotalAmount2, TotalItemCount1, TotalItemCount2) to the client side. 
 
-##Using MLlib to express the following workflows:
+__Using MLlib to express the following workflows:__
 
 Task 2.5) Data Preparation 1: Generatinging a dataset composed of customer ID, TransID, 
 Age, Salary, TransNumItems and TransTotal.
@@ -57,4 +57,4 @@ is TransTotal.
 Task 2.8) Predicting the price: Identifing and using 3 metrics to evaluate the algorithms 
 from Task 2.7. 
 
-The poor performance of the models can be attributed to the fact that the data has been randomly generated
+__The poor performance of the models can be attributed to the fact that the data has been randomly generated as the main motivation for this project was to get a taste of working with Spark__
